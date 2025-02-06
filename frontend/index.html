@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mpox Live Tracker</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Mpox Live Tracker</h1>
-    <canvas id="lineChart"></canvas>
-    <input type="range" id="timelineSlider" min="0" max="100" value="100">
-    <div id="map"></div>
+    <canvas id="mpoxChart"></canvas>
+    <input type="range" id="timeline" min="30" max="300" value="100">
     <script src="script.js"></script>
 </body>
 </html>
