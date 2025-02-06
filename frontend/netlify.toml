@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "https://your-render-backend-url.onrender.com/data"
+  to = "https://mpxcases.onrender.com/data"
   status = 200
   force = true
