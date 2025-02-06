@@ -1,17 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 20px;
-}
-
-canvas {
-    max-width: 800px;
-    margin: auto;
-}
-
-#map {
-    height: 400px;
-    width: 80%;
-    margin: auto;
-    border: 1px solid #ddd;
-}
+body { font-family: Arial, sans-serif; text-align: center; }
+h1 { color: #a52a2a; }
+canvas { width: 90%; max-width: 800px; margin: auto; }
+input[type="range"] { width: 80%; }
