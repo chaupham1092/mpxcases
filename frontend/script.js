@@ -1,4 +1,4 @@
-const apiUrl = "https://your-render-backend-url.onrender.com/data";
+const apiUrl = "https://mpxcases.onrender.com";
 
 async function fetchData() {
     const response = await fetch(apiUrl);
