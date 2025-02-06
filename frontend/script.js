@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     let chart;
 
     async function fetchData() {
-        const response = await fetch("https://mpox-api.onrender.com/data");
+        const response = await fetch("https://mpxcases.onrender.com/data");
         const csvData = await response.text();
         return parseCSV(csvData);
     }
